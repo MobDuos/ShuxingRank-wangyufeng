@@ -1,0 +1,494 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>周月榜计算公式</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/周月榜计算公式/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/周月榜计算公式/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34" class="ax_default box_2">
+        <div id="u34_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u35" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36" class="ax_default label">
+        <div id="u36_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u37" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38" class="ax_default label">
+        <div id="u38_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39" class="text" style="visibility: visible;">
+          <p><span>前提：上榜4次第20名=上榜2次第P名=上榜1次第1名</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40" class="ax_default label">
+        <div id="u40_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u41" class="text" style="visibility: visible;">
+          <p><span>次数：X（权重因子），排名：1-X</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u42" class="ax_default label">
+        <div id="u42_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u43" class="text" style="visibility: visible;">
+          <p><span>排名第1得分：20，第P名得分：R，排名第20得分为：S</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44" class="ax_default label">
+        <div id="u44_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u45" class="text" style="visibility: visible;">
+          <p><span>20（1-X）+ X=2X+2R（1-X）</span></p><p><span><br></span></p><p><span><br></span></p><p><span><br></span></p><p><span>20（1-X）+ X=4X+4S（1-X）</span></p><p><span><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u46" class="ax_default label">
+        <div id="u46_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u47" class="text" style="visibility: visible;">
+          <p><span>X=</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u48" class="ax_default">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u49" class="ax_default label">
+          <div id="u49_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u50" class="text" style="visibility: visible;">
+            <p><span>20-2R</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u51" class="ax_default label">
+          <div id="u51_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u52" class="text" style="visibility: visible;">
+            <p><span>21-2R</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (水平线) -->
+        <div id="u53" class="ax_default line">
+          <img id="u53_img" class="img " src="images/周月榜计算公式/u53.png"/>
+          <!-- Unnamed () -->
+          <div id="u54" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u55" class="ax_default label">
+        <div id="u55_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u56" class="text" style="visibility: visible;">
+          <p><span>X=</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u57" class="ax_default">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u58" class="ax_default label">
+          <div id="u58_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u59" class="text" style="visibility: visible;">
+            <p><span>20-4S</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u60" class="ax_default label">
+          <div id="u60_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u61" class="text" style="visibility: visible;">
+            <p><span>23-4S</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (水平线) -->
+        <div id="u62" class="ax_default line">
+          <img id="u62_img" class="img " src="images/周月榜计算公式/u53.png"/>
+          <!-- Unnamed () -->
+          <div id="u63" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u64" class="ax_default label">
+        <div id="u64_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u65" class="text" style="visibility: visible;">
+          <p><span>根据0&lt;=X&lt;1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u66" class="ax_default label">
+        <div id="u66_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u67" class="text" style="visibility: visible;">
+          <p><span>R&lt;=10</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u68" class="ax_default label">
+        <div id="u68_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u69" class="text" style="visibility: visible;">
+          <p><span>S&lt;=5</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u70" class="ax_default label">
+        <div id="u70_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u71" class="text" style="visibility: visible;">
+          <p><span>1&nbsp;&nbsp; 2&nbsp;&nbsp; 3&nbsp;&nbsp; 4&nbsp;&nbsp; 5&nbsp;&nbsp; 6&nbsp;&nbsp; 7&nbsp;&nbsp; 8&nbsp;&nbsp; 9&nbsp;&nbsp; 10&nbsp;&nbsp; 11&nbsp;&nbsp; 12&nbsp;&nbsp; 13&nbsp;&nbsp; 14&nbsp;&nbsp; 15&nbsp;&nbsp; 16&nbsp;&nbsp; 17&nbsp;&nbsp; 18&nbsp;&nbsp; 19&nbsp;&nbsp; 20 </span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u72" class="ax_default label">
+        <div id="u72_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u73" class="text" style="visibility: visible;">
+          <p><span>排名</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u74" class="ax_default label">
+        <div id="u74_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u75" class="text" style="visibility: visible;">
+          <p><span>得分</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u76" class="ax_default label">
+        <div id="u76_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u77" class="text" style="visibility: visible;">
+          <p><span>20</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u78" class="ax_default label">
+        <div id="u78_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u79" class="text" style="visibility: visible;">
+          <p><span>S&lt;=5</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u80" class="ax_default label">
+        <div id="u80_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u81" class="text" style="visibility: visible;">
+          <p><span>3R-2S=20</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u82" class="ax_default label">
+        <div id="u82_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u83" class="text" style="visibility: visible;">
+          <p><span>可设置S值，得R、X值，P值可选，之后设置区间上各点平均得分</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u84" class="ax_default label">
+        <div id="u84_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u85" class="text" style="visibility: visible;">
+          <p><span>周排名：商品周总得分&nbsp; *（1-X)+商品上榜次数 * X&nbsp; &nbsp; &nbsp; &nbsp; / 7</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u86" class="ax_default label">
+        <div id="u86_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u87" class="text" style="visibility: visible;">
+          <p><span>月排名：同周排名原理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u88" class="ax_default">
+
+        <!-- Unnamed (水平线) -->
+        <div id="u89" class="ax_default line">
+          <img id="u89_img" class="img " src="images/周月榜计算公式/u89.png"/>
+          <!-- Unnamed () -->
+          <div id="u90" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (垂直线) -->
+        <div id="u91" class="ax_default line">
+          <img id="u91_img" class="img " src="images/周月榜计算公式/u91.png"/>
+          <!-- Unnamed () -->
+          <div id="u92" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (水平线) -->
+        <div id="u93" class="ax_default line">
+          <img id="u93_img" class="img " src="images/周月榜计算公式/u89.png"/>
+          <!-- Unnamed () -->
+          <div id="u94" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (垂直线) -->
+        <div id="u95" class="ax_default line">
+          <img id="u95_img" class="img " src="images/周月榜计算公式/u91.png"/>
+          <!-- Unnamed () -->
+          <div id="u96" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (椭圆形) -->
+      <div id="u97" class="ax_default ellipse">
+        <img id="u97_img" class="img " src="images/周月榜计算公式/u97.png"/>
+        <!-- Unnamed () -->
+        <div id="u98" class="text" style="visibility: visible;">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u99" class="ax_default">
+
+        <!-- Unnamed (水平线) -->
+        <div id="u100" class="ax_default line">
+          <img id="u100_img" class="img " src="images/周月榜计算公式/u89.png"/>
+          <!-- Unnamed () -->
+          <div id="u101" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (垂直线) -->
+        <div id="u102" class="ax_default line">
+          <img id="u102_img" class="img " src="images/周月榜计算公式/u102.png"/>
+          <!-- Unnamed () -->
+          <div id="u103" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (水平线) -->
+        <div id="u104" class="ax_default line">
+          <img id="u104_img" class="img " src="images/周月榜计算公式/u89.png"/>
+          <!-- Unnamed () -->
+          <div id="u105" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (垂直线) -->
+        <div id="u106" class="ax_default line">
+          <img id="u106_img" class="img " src="images/周月榜计算公式/u102.png"/>
+          <!-- Unnamed () -->
+          <div id="u107" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (椭圆形) -->
+      <div id="u108" class="ax_default ellipse">
+        <img id="u108_img" class="img " src="images/周月榜计算公式/u97.png"/>
+        <!-- Unnamed () -->
+        <div id="u109" class="text" style="visibility: visible;">
+          <p><span>2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u110" class="ax_default label">
+        <div id="u110_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u111" class="text" style="visibility: visible;">
+          <p><span>商品周排名总分：0~20*7=140&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u112" class="ax_default label">
+        <div id="u112_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u113" class="text" style="visibility: visible;">
+          <p><span>商品周上榜总分：0~1*7=7&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u114" class="ax_default label">
+        <div id="u114_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u115" class="text" style="visibility: visible;">
+          <p><span>20:1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u116" class="ax_default label">
+        <div id="u116_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u117" class="text" style="visibility: visible;">
+          <p><span>商品A周排名总得分：S(每次上榜排名分相加）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u118" class="ax_default label">
+        <div id="u118_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u119" class="text" style="visibility: visible;">
+          <p><span>商品A周上榜总得分：R(上榜次数相加）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u120" class="ax_default label">
+        <div id="u120_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u121" class="text" style="visibility: visible;">
+          <p><span>商品排名：1~20,得分为20~1（递减）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u122" class="ax_default label">
+        <div id="u122_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u123" class="text" style="visibility: visible;">
+          <p><span>设置得分系数为0.5,上榜系数为0.5</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u124" class="ax_default label">
+        <div id="u124_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u125" class="text" style="visibility: visible;">
+          <p><span>商品A周得分为0.5*S+0.5*R*20</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u126" class="ax_default label">
+        <div id="u126_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u127" class="text" style="visibility: visible;">
+          <p><span>1.累计上榜天数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u128" class="ax_default label">
+        <div id="u128_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u129" class="text" style="visibility: visible;">
+          <p><span>2.最后一天上榜排名</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u130" class="ax_default label">
+        <div id="u130_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u131" class="text" style="visibility: visible;">
+          <p><span>畅销榜：按“热度指数”求和排序</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

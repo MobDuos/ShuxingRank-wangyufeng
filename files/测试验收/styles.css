@@ -3,7 +3,7 @@
   background-image:none;
   position:static;
   left:auto;
-  width:774px;
+  width:10px;
   margin-left:0;
   margin-right:0;
   text-align:left;
@@ -11,116 +11,4 @@
 #base {
   position:absolute;
   z-index:0;
-}
-#u2268_div {
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:577px;
-  height:32px;
-  background:inherit;
-  background-color:rgba(255, 255, 255, 0);
-  border:none;
-  border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-}
-#u2268 {
-  position:absolute;
-  left:84px;
-  top:34px;
-  width:577px;
-  height:32px;
-}
-#u2269 {
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:577px;
-  white-space:nowrap;
-}
-#u2270_div {
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:690px;
-  height:224px;
-  background:inherit;
-  background-color:rgba(255, 255, 255, 0);
-  border:none;
-  border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-}
-#u2270 {
-  position:absolute;
-  left:84px;
-  top:78px;
-  width:690px;
-  height:224px;
-}
-#u2271 {
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:690px;
-  white-space:nowrap;
-}
-#u2272_div {
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:511px;
-  height:227px;
-  background:inherit;
-  background-color:rgba(255, 255, 255, 0);
-  border:none;
-  border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-}
-#u2272 {
-  position:absolute;
-  left:84px;
-  top:302px;
-  width:511px;
-  height:227px;
-}
-#u2273 {
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:511px;
-  white-space:nowrap;
-}
-#u2274_div {
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:522px;
-  height:227px;
-  background:inherit;
-  background-color:rgba(255, 255, 255, 0);
-  border:none;
-  border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-}
-#u2274 {
-  position:absolute;
-  left:84px;
-  top:507px;
-  width:522px;
-  height:227px;
-}
-#u2275 {
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:522px;
-  white-space:nowrap;
 }
